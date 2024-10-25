@@ -1,0 +1,366 @@
+.body {
+    color: pink;
+}
+
+.desconto {
+    background-color: #EEB7D0;
+    color: white;
+    width: auto;
+    height: auto;
+    box-sizing: border-box;
+    float: inherit;
+    text-align: center;
+}
+
+@media only screen and (min-width: 768px) {
+    .col-1 {
+        width: 8.33%;
+    }
+
+    .col-2 {
+        width: 16.66%;
+    }
+
+    .col-3 {
+        width: 25%;
+    }
+
+    .col-4 {
+        width: 33.33%;
+    }
+
+    .col-5 {
+        width: 41.66%;
+    }
+
+    .col-6 {
+        width: 50%;
+    }
+
+    .col-7 {
+        width: 58.33%;
+    }
+
+    .col-8 {
+        width: 66.66%;
+    }
+
+    .col-9 {
+        width: 75%;
+    }
+
+    .col-10 {
+        width: 83.33%;
+    }
+
+    .col-11 {
+        width: 91.66%;
+    }
+
+    .col-12 {
+        width: 100%;
+    }
+}
+
+[class*="col-"] {
+    width: 100%;
+}
+
+@media only screen and (min-width: 600px) {
+    .col-s-1 {
+        width: 8.33%;
+    }
+
+    .col-s-2 {
+        width: 16.66%;
+    }
+
+    .col-s-3 {
+        width: 25%;
+    }
+
+    .col-s-4 {
+        width: 33.33%;
+    }
+
+    .col-s-5 {
+        width: 41.66%;
+    }
+
+    .col-s-6 {
+        width: 50%;
+    }
+
+    .col-s-7 {
+        width: 58.33%;
+    }
+
+    .col-s-8 {
+        width: 66.66%;
+    }
+
+    .col-s-9 {
+        width: 75%;
+    }
+
+    .col-s-10 {
+        width: 83.33%;
+    }
+
+    .col-s-11 {
+        width: 91.66%;
+    }
+
+    .col-s-12 {
+        width: 100%;
+    }
+}
+
+.cabecalho {
+    width: auto;
+    height: auto;
+    display: grid;
+    grid-template-columns: 25% 50% 15% 10%;
+    text-align: center;
+}
+
+.albacab {
+    font-style: initial;
+    color: #DC5299;
+}
+
+
+.opcoes {
+    position: relative;
+}
+
+.opcoesmais {
+    border-color: rgb(199, 199, 199);
+    box-shadow: 2px 2px 2px 2px rgb(199, 199, 199);
+    position: absolute;
+    display: none;
+    z-index: 1;
+
+
+}
+
+.opcoes:hover .opcoesmais {
+    display: block;
+}
+
+.opcoes:hover .opcoesmais li {
+    float: none;
+
+}
+
+.redesociais div .redecompra div {
+    width: 60px;
+    height: 60px;
+    text-align: center;
+    padding: 1000px;
+    display: flex;
+    float:right;
+    flex-direction: row;
+    justify-content:center;
+    box-sizing: border-box;
+}
+
+hr {
+    size: 5px;
+    background-color: #DC5299;
+    box-sizing: border-box;
+}
+
+.ul1{
+    padding-left: 270px;
+    list-style-type: none;
+    background-color: rgb(255, 255, 255);
+    width: auto;
+    font-size: 20x;
+    padding-bottom: 10px;
+    line-height: 2px;
+    box-sizing: border-box;
+    text-align: center;
+    padding-right: 40px;
+}
+
+.ul2{
+    list-style-type: none;
+    background-color: rgb(255, 255, 255);
+    width: auto;
+    font-size: 20x;
+    padding-bottom: 10px;
+    line-height: 2px;
+    box-sizing: border-box;
+    text-align: center;
+    padding-right: 40px;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: #DC5299;
+    text-align: left;
+    padding: 15px;
+    text-decoration: none;
+    background-color: white;
+    font-style: oblique;
+}
+
+li a:hover{
+    color:#DC5200;
+}
+
+.busca {
+    padding: 35px 0;
+    margin: top 200px;
+    ;
+}
+
+.busca input {
+    max-width: 150px;
+    margin-left: 150px;
+    font-size: 20px;
+    border: 1px #555555 solid;
+    border-radius: 5px;
+}
+
+.busca i {
+    position: relative;
+    left: 200px;
+    margin-left: 10px;
+}
+
+
+.comercial {
+    height: 300px;
+    width: auto;
+    background-color: #EEB7D0;
+    border-radius: 3px;
+    background-position: 800px;
+    background-repeat: no-repeat;
+    background-size: 400px 300px;
+    position: relative;
+    display: grid;
+    grid-template-columns: 65% 35%;
+    margin-top: 30px;
+}
+
+
+.comercial h1 {
+    color: aliceblue;
+    padding-right: 300px;
+    box-sizing: border-box;
+    text-align: center;
+}
+
+h1 {
+    color: #DC5299;
+    text-align: center;
+}
+
+.desc {
+    color: white;
+    padding-left: 250px;
+    padding-top: 75px;
+    box-sizing: border-box;
+    text-align: center;
+
+}
+
+
+.img-quadro {
+    width: 80%;
+    height: 200px;
+    margin: auto;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    text-align: center;
+    margin-top: 10px;
+}
+
+.img-quadro img {
+    width: inherit;
+    height: inherit;
+    border-radius: 10px;
+    border: 1px solid black;
+}
+
+
+
+.divprodutos {
+    display: grid;
+    grid-template-columns: 33.33% 33.33% 33.33%;
+    text-align: center;
+    padding-left: 100px;
+}
+
+.divprodutos2 {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    text-align: center;
+    padding-left: 100px;
+}
+
+.produtos {
+    background-color: #DC5299;
+    width: 300px;
+    height: 280px;
+    text-align: justify;
+    border-radius: 5px;
+}
+
+.preco {
+    width: 100%;
+    padding-top: 5px;
+    background-color: rgb(255, 243, 243);
+    text-align: center;
+    margin: auto;
+    border-radius: 20px;
+    font-size: 25px;
+    width: 50%;
+    border: 1px solid black;
+
+}
+
+.quadro {
+    background-repeat: no-repeat;
+    background-size: 280px 220px;
+    position: relative;
+    background-position: 10px;
+    box-sizing: border-box;
+    width: 70%;
+    height: 270px;
+    margin-top: 30px;
+    background-color: #EEB7D0;
+    border-radius: 10px;
+    border: 1px solid rgb(62, 139, 10);
+}
+
+
+
+
+.logo-grupo img {
+    width: 325px;
+    height: 325px;
+    margin-top: -15px;
+    margin-bottom: 15px;
+    border-radius: 10px;
+    box-shadow: 5px 5px 15px;
+}
+
+.footer {
+    width: auto;
+    background-color: #DC5299;
+    color: white;
+    font-size: 15px;
+    text-align: center;
+}
+
+a{
+    text-decoration: none;
+    color: #DC5299;
+}
